@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*Used Semantic header tag*/
+/*Changed .header to header because of using Semantic tag "header" */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,7 +25,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/*Used semantic nav tag*/
+/*changed div to nav because of using Semantic tag "nav"*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -88,7 +88,7 @@ p {
     background-color: #2589bd;
 }
 
-/*Merged benefit - lead,brand,cost */
+/*Merged benefit - lead, brand, cost because their properties are same*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -111,7 +111,9 @@ p {
     max-width: 150px;
 }
 
-/*Merged all by using section ids*/
+/*Merged all because their properties are same*/
+/*Used id attribute to apply the CSS properties as the class 
+attribute has been deleted to maintain a clean code*/
 #search-engine-optimization,
 #online-reputation-management,
 #social-media-marketing{
@@ -136,7 +138,7 @@ p {
     font-size: 36px;
 }
 
-/*Used semantic "footer" tag*/
+/*Changed .footer to footer because of using Semantic tag "footer" */
 footer {
     padding: 30px;
     clear: both;

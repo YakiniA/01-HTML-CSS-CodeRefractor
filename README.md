@@ -6,11 +6,10 @@ This assignment on HTML and CSS focus on code refractor, taking the existing cod
 
 * Included a clear and precise title for the webpage.
 * Used semantic HTML elements like header, nav, section, aside, footer to clearly understand its purpose instead of the plain div tag.
-* Simply used the id attribute for Search Engine Optimization, Online Reputation Management, Social Media Marketing to avoid confusion and repetition, it is simple to refer with id attribute alone.
 * The link for Search Engine Optimization in the header is not working as the id attribute is missing. Fixed the issue and ensured all the links are working correctly.
+* Used the id attribute alone for Search Engine Optimization, Online Reputation Management, Social Media Marketing as both id and class attributes have the same values. This avoids confusion and repetition, it is simple to refer with id attribute alone.
 * For all the image elements, the alt attribute has been added.
-* Added figure tag for image elements so that figcaption can be added easily in the future if needed.
-* Deleting the closing tag for the image as it is not necessary.
+* Deleted the closing tag(</img>) for the image as it is not necessary.
 
 # Changes done in CSS:
 
